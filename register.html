@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+    <!--a form that allows registration-->
+        <header><h1>Register Your Recipe Account</h1></header>
+        <form method="POST">
+    
+            <label for="firstname">First Name: </label><input type="text" name="firstname" value="firstname" required><br><br>
+            <label for="lastname">Last Name: </label><input type="text" name="lastname" value="lastname" required><br><br>
+            <label for="email">Email: </label><input type="email" name="email" required><br><br>
+            <label for="DOB">Date of Birth: </label><input type="date" name="DOB" value="DOB" required><br><br>
+            <label for="password">Password: </label><input type="password" name="password" value="password" required><br><br>
+            <!-- radio buttons - only one can be selected because shared name-->
+            <label for="gender">Gender: </label><br><br>
+            <input type="radio" name="gender" value="Male">Male<br><br>
+            <input type="radio" name="gender" value="Female">Female<br><br>
+            <input type="radio" name="gender" value="Other">Other<br><br>
+            <!--checkboxes - multiple can be selected-->
+            <label for="recipeemails">I want to hear about:</label><br>
+            <input type="checkbox" name="recipeemails" value="desserts">Dessert Recipes<br>
+            <input type="checkbox" name="recipeemails" value="main dishes">Main Dishes<br>
+            <input type="checkbox" name="recipeemails" value="starters">Starters<br>
+            <input type="checkbox" name="recipeemails" value="none">None of the Above<br><br>
+            <!--select dropdown list-->
+            <label for="drink">What drink do you like in the morning:</label>
+            <select name=drink>
+                <option value="hot-chocolate">Hot Chocolate</option>
+                <option value="tea">Tea</option>
+                <option value="coffee">Coffee</option>
+                <option value="beer">Beer</option>
+                <option value="water">Just Water</option>
+            </select><br><br>
+            <!--the submit the info or reset-->
+            <input type="submit" value="Give me recipes!"><br><br>
+            <input type="reset">
+        </form>       
+    </body>
+</html>
