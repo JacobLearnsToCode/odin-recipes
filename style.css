@@ -1,0 +1,59 @@
+
+.page {
+    background-color: #4CC9F0;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    letter-spacing: 10px;
+    color: #f72585;
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+}
+
+.recipe-link{
+    color: #f72585;
+    text-decoration: none;
+}
+
+.recipe-link:hover{
+    color: white;
+    font-size: 50px;
+    background-color: #f72585;
+}
+
+nav{
+    color: #4CC9F0;
+    background-color:#f72585 ;
+    width: min-content;
+}
+
+nav:hover{
+    color: #f72585;
+    background-color: white;
+    width: min-content;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: #f72585;
+}
+
+h2,
+ol,
+ul{
+    color: #f72585;
+}
+
+
+
